@@ -9,6 +9,24 @@ A Python script to simulate and filter noise from an electrocardiogram (ECG) sig
 
 ## Prerequisites
 - Python 3.x
-- Required libraries:  
+- Required libraries: `numpy`, `scipy`, `matplotlib` (listed in `requirements.txt`)
+
+## Installation
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/Arian4ever/ECG-Signal-Filter.git
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+- Run the script to see the filtering in action:
   ```bash
-  pip install -r requirements.txt
+  python ecg_filter.py
+
+## Application
+
+Perfect for learning signal processing in biomedical engineering—think ECG devices, heart monitors, or any system needing clean bio-signals.
+
+Built by Arian4ever with assistance from Grok 3 by xAI.
