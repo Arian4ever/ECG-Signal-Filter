@@ -1,6 +1,8 @@
 # ECG Signal Filter
 A Python script to simulate and filter noise from an electrocardiogram (ECG) signal using a Butterworth low-pass filter. This project demonstrates signal processing for biomedical engineering applications, cleaning up noisy heart data to reveal the true signal.
 
+![ECG Filter Output](output.png)
+
 ## Features
 - Generates a synthetic ECG signal with a heart rate of ~72 beats per minute (1.2 Hz).
 - Adds random white noise to mimic real-world sensor interference.
